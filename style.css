@@ -1,0 +1,85 @@
+.center {
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+  
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.guess {
+    display: inline;
+    font-size: 60px;
+    border: 1px solid #ffffff;
+    padding: 0 25px;
+    border-radius: 10%;
+    background-image: url('cosmic2.jpg');
+}
+
+body {
+    background-image: url('cosmic.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.black {
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.purple {
+    color: #a126ff
+}
+
+.maroon {
+    color: #510421
+}
+
+.dark-green {
+    color: #003820
+}
+
+.background {
+    background-color: #8ee5b4
+}
+
+#player-input {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+}
+
+#submit {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 110px;
+    left: 110px;
+}
+
+#input-parent {
+    width: 160px;
+    margin: 5% auto 50px;
+    position: relative;
+  }
+
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
